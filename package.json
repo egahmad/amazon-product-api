@@ -3,9 +3,7 @@
     "version": "2.2.44",
     "description": "Amazon Scraper. You can scrape products from amazon search result and you can also scrape reviews from a specific product",
     "main": "./lib/index.js",
-    "bin": {
-        "amazon-buddy": "bin/cli.js"
-    },
+    "bin": "bin/cli.js",
     "files": [
         "lib"
     ],
@@ -22,7 +20,6 @@
         "tough-cookie": "^3.0.1",
         "yargs": "^14.2.0"
     },
-    "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
